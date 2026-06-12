@@ -159,8 +159,7 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Wo:</strong> Dieser Workshop findet online statt. Den Zugangslink erhaltet ihr nach erfolgreicher Anmeldung.
 </p>
 {% endif %}
 
@@ -188,10 +187,8 @@ Modify the block below if there are any special requirements.
     Participants must bring a laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Participants müssen Zugang zu einem Rechner mit einem Mac-, Linux-, oder Windows-Betriebssystem haben (kein Tablet, Chromebook o.ä.), auf dem <a href="https://openrefine.org/">OpenRefine</a> installiert ist.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment %}
