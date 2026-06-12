@@ -101,6 +101,8 @@ Menschen, die in Bibliotheken arbeiten, haben täglich mit Daten zu tun. Der Com
 Die Veranstaltung richtet sich an alle in Bibliotheken und Informationseinrichtungen arbeitenden Menschen, die bisher keine Gelegenheit hatten, sich mit diesen Werkzeugen zu befassen, und will zum eigenständigen Experimentieren und Weiterlernen anregen. Personen, die bereits Vorkenntnisse (z.B. einen Pythonkurs) mitbringen, bitten wir, die Plätze für Anfänger*innen freizuhalten. Wer trotzdem Carpentry-Luft schnuppern möchte, darf sich gerne als Helfer*in in das Programm einbringen, dann freuen wir uns über eine Kontaktaufnahme per Email.
 
 Vom 14.-18. September führen wir den Kurs online (über Zoom) durch. Die Teilnehmendenzahl ist auf zwanzig Personen begrenzt. Die Teilnahme ist kostenlos, fordert aber einen gewissen Zeitaufwand, da der Kurs über die Woche jeden Vormittag (ca. 9-13 Uhr) stattfindet. Eine Teilnahme nur an einzelnen Modulen ist nicht möglich. Im Vorfeld müssen einige Programme lokal auf Ihrem Rechner installiert werden, genauere Informationen dazu werden vor der Veranstaltung verschickt.
+
+<a href="https://events.gwdg.de/event/1441/">Zur Anmeldung</a>
 </p>
 
 {% if site.pilot %}
@@ -159,7 +161,7 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Wo:</strong> Dieser Workshop findet online statt. Den Zugangslink erhaltet ihr nach erfolgreicher Anmeldung.
+  <strong>Wo:</strong> Dieser Workshop findet online statt. Den Zugangslink erhaltet ihr nach erfolgreicher <a href="https://events.gwdg.de/event/1441/">Anmeldung</a>.
 </p>
 {% endif %}
 
