@@ -96,16 +96,11 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
-href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
-<a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
-helpers, and supporters who share a mission to teach foundational computational and data science
-skills to researchers.
-<p align="center">
-  <em>
-  <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
-  </em>
+Menschen, die in Bibliotheken arbeiten, haben täglich mit Daten zu tun. Der Computer kann eine große Hilfe dabei sein, große Datenmengen zu bearbeiten – wenn man die richtigen Werkzeuge kennt und mit ihnen umgehen kann. Für einen ersten Einblick in die IT-gestützte Arbeit mit Daten bietet Library Carpentry einen Überblick über gängige Tools und Methoden. In dem gemeinsam vom VDB Nordwest und der SUB Göttingen organisierten Library Carpentry-Workshop beschäftigen wir uns unter anderem mit der Suche in Daten mit Hilfe von Regular Expressions und der richtigen Darstellung von Daten in gängigen Tabellenverarbeitungsprogrammen („Tidy Data“). Außerdem lernen wir das Allround-Werkzeug OpenRefine kennen und machen erste Schritte in der Programmierung mit Python. 
+
+Die Veranstaltung richtet sich an alle in Bibliotheken und Informationseinrichtungen arbeitenden Menschen, die bisher keine Gelegenheit hatten, sich mit diesen Werkzeugen zu befassen, und will zum eigenständigen Experimentieren und Weiterlernen anregen. Personen, die bereits Vorkenntnisse (z.B. einen Pythonkurs) mitbringen, bitten wir, die Plätze für Anfänger*innen freizuhalten. Wer trotzdem Carpentry-Luft schnuppern möchte, darf sich gerne als Helfer*in in das Programm einbringen, dann freuen wir uns über eine Kontaktaufnahme per Email.
+
+Vom 14.-18. September führen wir den Kurs online (über Zoom) durch. Die Teilnehmendenzahl ist auf zwanzig Personen begrenzt. Die Teilnahme ist kostenlos, fordert aber einen gewissen Zeitaufwand, da der Kurs über die Woche jeden Vormittag (ca. 9-13 Uhr) stattfindet. Eine Teilnahme nur an einzelnen Modulen ist nicht möglich. Im Vorfeld müssen einige Programme lokal auf Ihrem Rechner installiert werden, genauere Informationen dazu werden vor der Veranstaltung verschickt.
 </p>
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
