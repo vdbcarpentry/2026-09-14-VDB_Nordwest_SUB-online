@@ -15,7 +15,7 @@ startdate: 2026-09-14      # machine-readable start date for the workshop in YYY
 enddate: 2026-09-18        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Eva Bunge", "Johanna Kerch", "Inga Schmitt", "Andreas Walker"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Anna-Lena Brunecker", "Sophia Dörner", "Jonas Gentsch", "David Krassnig", "Julika Mimkes", "Alejandro Pereira", "Birgit Schmidt", "David Waldecker" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["mimkes@sub.uni-goettingen.de","andreas.walker@hs-hannover.de"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
@@ -192,63 +192,17 @@ Modify the block below if there are any special requirements.
 </p>
 
 {% comment %}
-ACCESSIBILITY
-
-Modify the block below if there are any barriers to accessibility or
-special instructions.
-{% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong>
-  We are committed to making this workshop
-  accessible to everybody. 
-{% if online == "false" %}
-  The workshop organizers have checked that:
-<p>
-  <ul>
-    <li>The room is wheelchair / scooter accessible.</li>
-    <li>Accessible restrooms are available.</li>
-  </ul>
-{% endif %}
-</p>
-<p>We are dedicated to providing a positive and accessible learning environment for all. 
-  We do not require participants to provide documentation of disabilities or disclose any unnecessary personal information. 
-  However, we do want to help create an inclusive, accessible experience for all participants. 
-  We encourage you to share any information that would be helpful to make your Carpentries experience accessible.
-  To request accessibility support for this workshop, please fill out the 
-  <a href="https://carpentries.typeform.com/to/B2OSYaD0">accessibility support request form</a>.
-  If you have questions or need assistance with the accessibility support form please <a href="mailto:team@carpentries.org">email us</a>.
-</p>
-<p>
-  <a href="https://glosario.carpentries.org/">Glosario</a> is a multilingual glossary 
-  for computing and data science terms. The glossary helps 
-  learners attend workshops and use our lessons to make sense of computational and programming jargon written in English by offering it 
-  in their native language. Translating data science terms also provides a teaching tool for Carpentries Instructors to reduce barriers 
-  for their learners.
-</p>
-
-{% comment %}
-WORKSHOP RECORDINGS
-
-Modify or remove the block below if you plan to record the workshop.
-{% endcomment %}
-<p id="recordings">
-  <strong>Workshop Recordings:</strong>
-  Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
-  To foster a positive online learning environment, we strongly recommend that participants join in real time.
-  As a result, workshop recordings are not recommended and may not be available to learners.
-</p>
-{% comment %}
 CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email
+  Bei Fragen, schickt gerne eine Email an
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
-  or
+  oder
   {% else %}
   {% unless forloop.first %}
   ,
@@ -259,7 +213,6 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
 </p>
 
 <p id="workshops-faq">
